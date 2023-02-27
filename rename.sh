@@ -4,7 +4,7 @@
 dir=$(pwd)
 
 # Get a list of all files in the directory
-files=(*.jpeg)
+files=(*.jpg)
 
 # Loop through each file and rename it with a random string
 for file in "${files[@]}"; do
